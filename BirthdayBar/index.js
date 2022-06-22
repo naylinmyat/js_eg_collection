@@ -3,7 +3,7 @@ let pairValue = 4;
 let selectSeg = 2;
 function birthdayBar(arr,pairValue,selectSeg){
     let pairCount = 0;
-    for(let i = 0; i < arr.length - 1; i++){
+    for(let i = 0; i < arr.length; i++){
         let toSumArray = arr.slice(i,i+selectSeg);
         let sum = 0;
         for(let i = 0; i < toSumArray.length; i++){
