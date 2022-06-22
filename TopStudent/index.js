@@ -31,8 +31,8 @@ let students = [
 function findTopStudentName(arr){
     let topStudent = students[0];
     for(let i = 1; i < arr.length; i++){
-        if(students[i].mark > topStudent.mark){
-            topStudent = students[i];
+        if(arr[i].mark > topStudent.mark){
+            topStudent = arr[i];
         }
     }
     return topStudent.name;
