@@ -2,7 +2,7 @@ let sampleArray = [1,2,3,4,5];
 
 function miniMaxSum(arr){
     let maxNumber = -1;
-    let miniNumber = Number.MAX_SAFE_INTEGER;
+    let miniNumber = Number.MAX_VALUE;
     let sum = 0;
     for(let value of arr){
         sum += value;
