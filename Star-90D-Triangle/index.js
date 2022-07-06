@@ -9,4 +9,4 @@ function staircase(n){
     }
     console.log(result);
 } 
-staircase(7);
+staircase(9);
